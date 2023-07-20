@@ -16,7 +16,8 @@ return new class extends Migration
             $table->string('descricao');
             $table->integer('qtd');
             $table->float('precoUnitario');
-            $table->float('precoVenda');
+            $table->float('producao');
+
         });
     }
 
