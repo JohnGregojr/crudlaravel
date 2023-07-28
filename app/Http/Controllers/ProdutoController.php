@@ -90,7 +90,7 @@ class ProdutoController extends Controller
     {
         $produto->delete();
 
-        return redirect()->route('produtos.idex')
+        return redirect()->route('produtos.index')
                         ->with('success','Produto excluido com sucesso.');
     }
 }
